@@ -1,0 +1,20 @@
+# 密钥等私密文件
+.env
+*.key
+config_local.py
+
+# 大文件与索引产物
+vectors.npy
+chunks.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器和系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

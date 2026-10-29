@@ -1,0 +1,10 @@
+实验名,切分策略,Top-K,重排,Prompt,召回命中率,答案准确率,幻觉率,拒答正确率,对抗诱导幻觉率,平均时延s
+E1_fixed_top5,fixed,5,否,v1,0.75,0.67,0.07,0.95,0.0667,0.86
+E2_semantic_top5,semantic,5,否,v1,0.7875,0.74,0.09,1.0,0.1333,0.9
+E3_semantic_top3,semantic,3,否,v1,0.6875,0.66,0.06,1.0,0.0667,0.86
+E4_semantic_top10,semantic,10,否,v1,0.925,0.73,0.08,0.95,0.1333,0.91
+E5_semantic_top5_rerank,semantic,5,是,v1,0.8625,0.78,0.06,0.95,0.0,1.53
+E6_section_top5,section,5,否,v1,0.725,0.63,0.05,0.95,0.0667,0.85
+E7_semantic_top10_rerank,semantic,10,是,v1,0.925,0.7,0.1,0.95,0.1333,1.65
+E8_semantic_top5_promptv2,semantic,5,否,v2,0.8,0.84,0.06,1.0,0.0667,1.1
+E9_semantic_top10_rerank_promptv2,semantic,10,是,v2,0.925,0.9,0.04,0.95,0.0667,1.89
